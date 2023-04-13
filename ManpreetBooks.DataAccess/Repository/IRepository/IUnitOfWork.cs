@@ -4,7 +4,10 @@ using System.Text;
 
 namespace ManpreetBooks.DataAccess.Repository.IRepository
 {
-    interface IUnitOfWork
+    interface IUnitOfWork : IDisposable
     {
+        ICategoryRepository Category { get; }
+        ISP_Call SP_Call { get; }
+    
     }
 }

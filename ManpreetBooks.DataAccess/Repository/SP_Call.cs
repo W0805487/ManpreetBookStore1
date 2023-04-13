@@ -27,7 +27,7 @@ namespace ManpreetBooks.DataAccess.Repository
             _db.Dispose();
         }
 
-        public void Execute(string procedurename, Dapper.DynamicParameters param = null)
+        public void Execute(string procedurename, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
@@ -36,7 +36,7 @@ namespace ManpreetBooks.DataAccess.Repository
             }
         }
 
-        public IEnumerable<T> List<T>(string procedurename, Dapper.DynamicParameters param = null)
+        public IEnumerable<T> List<T>(string procedurename, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
@@ -45,7 +45,7 @@ namespace ManpreetBooks.DataAccess.Repository
             }
         }
 
-        public Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurename, Dapper.DynamicParameters param = null)
+        public Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurename, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
@@ -62,7 +62,7 @@ namespace ManpreetBooks.DataAccess.Repository
             return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(new List<T1>(), new List<T2>());
         }
 
-        public T OneRecord<T>(string procedurename, Dapper.DynamicParameters param = null)
+        public T OneRecord<T>(string procedurename, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
@@ -71,7 +71,7 @@ namespace ManpreetBooks.DataAccess.Repository
                 return (T)Convert.ChangeType(value.FirstOrDefault(), typeof(T));
             }
         }
-        public T Single<T>(string procedurename, Dapper.DynamicParameters param = null)
+        public T Single<T>(string procedurename, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
@@ -79,30 +79,6 @@ namespace ManpreetBooks.DataAccess.Repository
                 return (T)Convert.ChangeType(sqlCon.ExecuteScalar<T>(procedurename, param, commandType: System.Data.CommandType.StoredProcedure), typeof(T));
             }
         }
-
-        public T Single<T>(string procedurename, IRepository.DynamicParameters param = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Execute(string procedurename, IRepository.DynamicParameters param = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public T OneRecord<T>(string procedurename, IRepository.DynamicParameters param = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<T> List<T>(string procedurename, IRepository.DynamicParameters param = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurename, IRepository.DynamicParameters param = null)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
+    

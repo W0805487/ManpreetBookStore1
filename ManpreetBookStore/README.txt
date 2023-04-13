@@ -173,3 +173,6 @@ ERROR: privacy page was not working
 SOLVED! I was missing two files in Views in main project
 _ViewImport.cshtml
 _ViewStart.cshtml
+
+1550
+created IunitOfWork.cs file in the IRepository folder. 
