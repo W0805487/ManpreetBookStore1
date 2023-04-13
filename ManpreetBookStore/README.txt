@@ -181,3 +181,7 @@ created IunitOfWork.cs file in the IRepository folder.
 1807
 created UnitOfWork.cs file in the Repository folder. 
 and modified it according to instruction.
+
+1810
+Modified startup.cs file.
+created public interfaces and classes.
