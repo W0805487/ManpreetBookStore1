@@ -164,3 +164,12 @@ Project run SUCCESSFULLY.....
 I started again because my new project DataAccess,Models and Utility not open in Github....
 
 Assinment 2 complete.
+
+
+2023-04-13
+1425
+
+ERROR: privacy page was not working
+SOLVED! I was missing two files in Views in main project
+_ViewImport.cshtml
+_ViewStart.cshtml
