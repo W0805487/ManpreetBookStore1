@@ -185,3 +185,9 @@ and modified it according to instruction.
 1810
 Modified startup.cs file.
 created public interfaces and classes.
+
+
+1835
+created CategoryController.cs file in Area>Admin>controller folder.
+write the code according to the given instruction.
+Edit the ICategoryRepository.cs file.
