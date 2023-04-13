@@ -197,3 +197,15 @@ created new folder named Category in the Area>Admin>Views
 created class in Category folder named Index.cshtml.
 
 Updated Navigation in the Layout.cshtml file.
+
+
+1920
+created category.js file in the wwwroot>js folder.
+Edit two icones named Edit,create and Delete in the category files. 
+added the new view called Upsert.cshtml.
+created a partial view for the EDIT/BACK in the View>Shared folder.
+1. _CreateAndBackToListButton.cshtml..
+2._EditAndBackToListButton.cshtml..
+
+Edit the asp-action in the index.cshtml file.
+

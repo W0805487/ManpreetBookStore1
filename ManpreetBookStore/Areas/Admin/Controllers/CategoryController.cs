@@ -1,4 +1,5 @@
 ﻿using ManpreetBooks.DataAccess.Repository.IRepository;
+using ManpreetBooks.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,22 @@ namespace ManpreetBookStore.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
+            return View();
+        }
+
+        public IActionResult Upsert(int? id)
+        {
+            Category category = new Category();
+            if (id == null)
+            {
+                //this is for create
+                return View(category);
+            }
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (category == null)
+            {
+                return NotFound();
+            }
             return View();
         }
 
