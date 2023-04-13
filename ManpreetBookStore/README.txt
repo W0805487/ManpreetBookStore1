@@ -191,3 +191,9 @@ created public interfaces and classes.
 created CategoryController.cs file in Area>Admin>controller folder.
 write the code according to the given instruction.
 Edit the ICategoryRepository.cs file.
+
+1840
+created new folder named Category in the Area>Admin>Views
+created class in Category folder named Index.cshtml.
+
+Updated Navigation in the Layout.cshtml file.
