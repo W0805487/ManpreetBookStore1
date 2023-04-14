@@ -250,4 +250,8 @@ modification in IUnitOfWork and UnitOfWork
 public ICoverTypeRepository CoverType { get; private set; }
 ICoverTypeRepository CoverType { get; }
 
+1947
+updated database
+It update successfully...
+
 
