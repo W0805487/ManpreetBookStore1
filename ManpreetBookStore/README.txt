@@ -245,3 +245,9 @@ Created class in Repository folder named "CoverTypeRepository.cs"
 created Interface in IRepository folder named ICoverTypeRepository.cs
 Modified it according to the given instruction..
 
+1945
+modification in IUnitOfWork and UnitOfWork
+public ICoverTypeRepository CoverType { get; private set; }
+ICoverTypeRepository CoverType { get; }
+
+
