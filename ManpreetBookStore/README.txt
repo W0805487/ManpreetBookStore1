@@ -220,5 +220,5 @@ add Delete method CategoryController.cs file
 Run the project..
 Successfully run......
 
-Completed Assignment 2
+Completed Assignment 2 part 2
 
