@@ -209,3 +209,8 @@ created a partial view for the EDIT/BACK in the View>Shared folder.
 
 Edit the asp-action in the index.cshtml file.
 
+2024
+
+Edit the category.js file according to given instruction 
+write Delete on the place of Upsert in line 23.. 
+
