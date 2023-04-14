@@ -240,4 +240,8 @@ shown this-> There is already an object named 'AspNetRoles' in the database.
 Solved Error...
 change the name of database ManpreetBookStore to ManpreetsBookStore in appsetings.json file..
 
+1940
+Created class in Repository folder named "CoverTypeRepository.cs"
+created Interface in IRepository folder named ICoverTypeRepository.cs
+Modified it according to the given instruction..
 
