@@ -229,4 +229,10 @@ starting part 3 assignment 2
 2137
 added a class in Model folder named CoverTypes.cs
 
+2023-04-12
+1520
+Added migration
+
+got error update-database not working...
+
 
