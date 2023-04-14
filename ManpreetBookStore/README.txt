@@ -232,7 +232,12 @@ added a class in Model folder named CoverTypes.cs
 2023-04-12
 1520
 Added migration
+20230414192142_AddCoverTypeToDb.cs
 
 got error update-database not working...
+shown this-> There is already an object named 'AspNetRoles' in the database.
+
+Solved Error...
+change the name of database ManpreetBookStore to ManpreetsBookStore in appsetings.json file..
 
 
