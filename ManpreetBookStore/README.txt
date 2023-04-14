@@ -226,4 +226,7 @@ Completed Assignment 2 part 2
 2023-04-13
 starting part 3 assignment 2
 
+2137
+added a class in Model folder named CoverTypes.cs
+
 
