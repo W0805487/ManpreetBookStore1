@@ -212,5 +212,13 @@ Edit the asp-action in the index.cshtml file.
 2024
 
 Edit the category.js file according to given instruction 
-write Delete on the place of Upsert in line 23.. 
+write Delete on the place of Upsert in line 23..
+
+2040
+
+add Delete method CategoryController.cs file
+Run the project..
+Successfully run......
+
+Completed Assignment 2
 
