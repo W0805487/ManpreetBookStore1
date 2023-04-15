@@ -263,4 +263,7 @@ created new view named Index.cshtml in CoverType folder..
 
 created new class named covertype.js in wwwroot folder
 
+2015
+added new controller named CoverTypeController in Area>Admin>Controller folder..
+modified it according to given instructions.
 
