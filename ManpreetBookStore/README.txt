@@ -267,3 +267,5 @@ created new class named covertype.js in wwwroot folder
 added new controller named CoverTypeController in Area>Admin>Controller folder..
 modified it according to given instructions.
 
+2030
+added new view named Upsert.cshtml in the Area>Admin>View>CoverType folder.
