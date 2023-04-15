@@ -163,7 +163,7 @@ Project run SUCCESSFULLY.....
 
 I started again because my new project DataAccess,Models and Utility not open in Github....
 
-Assinment 2 complete.
+Assignment 2 complete.
 
 
 2023-04-13
@@ -292,3 +292,10 @@ Modified it according to the given instruction..
 modification in IUnitOfWork and UnitOfWork
 public IProductRepository Product { get; private set; }
 IProductRepository product { get; }
+
+2148
+
+created new folder named Product in Area>Admin>View folder
+created new view named Index.cshtml in Product folder..
+
+created new class named product.js in wwwroot folder
