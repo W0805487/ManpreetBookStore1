@@ -274,3 +274,21 @@ added new view named Upsert.cshtml in the Area>Admin>View>CoverType folder.
 Added new class  named Product.cs in ManpreetBooksModel project
 Modify the ApplicationdbContect.cs file..
 added these lines public DbSet<Product> Products { get; set; }
+
+2105
+Added migrations
+20230415010516_AddProductToDb.cs
+20230415010516_AddProductToDb.Designer.cs
+
+updated database
+successfully updated...
+
+2115
+Created class in Repository folder named "ProductRepository.cs"
+created Interface in IRepository folder named IproductRepository.cs
+Modified it according to the given instruction..
+
+2117
+modification in IUnitOfWork and UnitOfWork
+public IProductRepository Product { get; private set; }
+IProductRepository product { get; }
