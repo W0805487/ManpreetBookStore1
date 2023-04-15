@@ -254,4 +254,13 @@ ICoverTypeRepository CoverType { get; }
 updated database
 It update successfully...
 
+1955
+modify Layout.cshtml file..
+
+2007
+created new folder named CoverType in Area>Admin>View folder
+created new view named Index.cshtml in CoverType folder..
+
+created new class named covertype.js in wwwroot folder
+
 
