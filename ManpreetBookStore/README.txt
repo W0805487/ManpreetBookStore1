@@ -269,3 +269,8 @@ modified it according to given instructions.
 
 2030
 added new view named Upsert.cshtml in the Area>Admin>View>CoverType folder.
+
+2059
+Added new class  named Product.cs in ManpreetBooksModel project
+Modify the ApplicationdbContect.cs file..
+added these lines public DbSet<Product> Products { get; set; }
