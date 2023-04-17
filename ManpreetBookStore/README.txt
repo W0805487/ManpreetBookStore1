@@ -299,3 +299,7 @@ created new folder named Product in Area>Admin>View folder
 created new view named Index.cshtml in Product folder..
 
 created new class named product.js in wwwroot folder
+
+2023-17-04
+1610
+Completed section 1 and 2 of part 3 assignment 2
