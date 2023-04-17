@@ -283,6 +283,14 @@ Added migrations
 updated database
 successfully updated...
 
+again add migrations
+20230417204050_addValidationToProduct.cs
+20230417204050_addValidationToProduct.Designer
+
+updated database
+successfully updated...
+
+
 2115
 Created class in Repository folder named "ProductRepository.cs"
 created Interface in IRepository folder named IproductRepository.cs
