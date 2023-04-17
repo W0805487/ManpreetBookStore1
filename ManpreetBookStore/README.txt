@@ -327,3 +327,6 @@ Added new view named Upsert.cshtml in Area>Admin>Views>Product folder..
 Modified it according to given instructions..
 Added a textbox to the textarea inside product.
 Edit the ProductController.cs file and added the some coding.. 
+
+1915
+Modified the Upsert.cshtml file of CoverType.
