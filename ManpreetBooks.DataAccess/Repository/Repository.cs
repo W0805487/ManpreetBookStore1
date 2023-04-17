@@ -46,7 +46,7 @@ namespace ManpreetBooks.DataAccess.Repository
             }
 
             if (orderBy != null)
-            {
+           {
                 return orderBy(query).ToList();
             }
             return query.ToList();      // returns the IEnumerable based on the conditions of the query
