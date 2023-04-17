@@ -313,10 +313,17 @@ created new class named product.js in wwwroot folder
 Completed section 1 and 2 of part 3 assignment 2
 
 1653
+modify the section 2
 created new class named ProductVM.cs in ViewModels folder
 modify according to given instruction..
 write this using statement-> using Microsoft.AspNetCore.Mvc.Rendering;
 
 1712
-Modified th eproductController.cs file as the given instructions.
+Modified th ProductController.cs file as the given instructions.
 So the IActionResult Upsert calls to the ProductVM view model.
+
+1801
+Added new view named Upsert.cshtml in Area>Admin>Views>Product folder..
+Modified it according to given instructions..
+Added a textbox to the textarea inside product.
+Edit the ProductController.cs file and added the some coding.. 
