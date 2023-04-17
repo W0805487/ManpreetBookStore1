@@ -316,3 +316,7 @@ Completed section 1 and 2 of part 3 assignment 2
 created new class named ProductVM.cs in ViewModels folder
 modify according to given instruction..
 write this using statement-> using Microsoft.AspNetCore.Mvc.Rendering;
+
+1712
+Modified th eproductController.cs file as the given instructions.
+So the IActionResult Upsert calls to the ProductVM view model.
