@@ -41,7 +41,7 @@ namespace ManpreetBooks.DataAccess.Repository
             {
                 foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
-                    query = query.Include(includeProp);
+                    query = query;
                 }
             }
 
@@ -49,6 +49,7 @@ namespace ManpreetBooks.DataAccess.Repository
            {
                 return orderBy(query).ToList();
             }
+            
             return query.ToList();      // returns the IEnumerable based on the conditions of the query
         }
 

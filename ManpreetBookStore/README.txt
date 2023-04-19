@@ -330,3 +330,12 @@ Edit the ProductController.cs file and added the some coding..
 
 1915
 Modified the Upsert.cshtml file of CoverType.
+
+2023-19-04
+1110
+application not nun properly and shown user handling exception error...
+Modify the Repository.cs file in delete this line->.Include(includeProp);
+
+1152
+created Delete method in product.js file..
+modify upsert.cshtml of Product
